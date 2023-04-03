@@ -1,92 +1,173 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8"/>
-        <link rel="stylesheet" href="./style.css">
-        <link rel="icon" href="./images/0.png">     
-        <title>Appunti</title>   
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
 
-    <body class="bg-[#d5d4f5] font-open">
-        <nav></nav>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./images/0.png">
+    <title>Appunti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-        <header class="text-center my-11">
-            <div>
-                <h3 class="uppercase text-[#9693e6] text-2xl py-3 opacity-75">Appunti Corsi</h3>
-                <h1 class="text-[#9693e6] text-5xl font-semibold opacity-80">Solo per Lo hacker che bontà</h1>                  
+<body class="bg-[#d5d4f5] font-open">
+    <nav></nav>
+
+    <header class="text-center my-11">
+        <div>
+            <h3 class="uppercase text-[#9693e6] text-2xl py-3 opacity-75">Appunti Corsi</h3>
+            <h1 class="text-[#9693e6] text-5xl font-semibold opacity-80">Solo per Lo hacker che bontà</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+
+            <div class="bg-white rounded-3xl mx-auto mb-10">
+                <div class="m-auto flex flex-col justify-center px-1">
+                    <img class="m-auto object-contain w-64 px-3 pt-5" src="./images/1.png" alt="SQL e postgreSQL" />
+                    <h3 class="text-center text-2xl pb-2 font-bold text-[#9693e6]">SQL e PostgreSQL</h3>
+                    <p class="text-center text-lg pb-2 mb-3 text-[#2d2d47]">Appunti su SQL e PostgreSQL</p>
+                    <button
+                        class="animate-pulse text-center bg-[#9693e6] hover:bg-[#7270a7] text-white rounded-3xl my-7 mb-16 mx-20 px-14 py-2"><a
+                            href="./doc/Corso_SQL_e_PostgreSQL.pdf" download>SCARICA</a></button>
+                </div>
             </div>
-        </header>
 
-        <main>
-            <div class="grid sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
-
-                <div class="bg-white rounded-3xl mx-auto mb-10">
-                    <div class="m-auto flex flex-col justify-center px-1">
-                        <img class="m-auto object-contain w-64 px-3 pt-5" src="./images/1.png" alt="SQL e postgreSQL"/>
-                        <h3 class="text-center text-2xl pb-2 font-bold text-[#9693e6]">SQL e PostgreSQL</h3>
-                        <p class="text-center text-lg pb-2 mb-3 text-[#2d2d47]">Appunti su SQL e PostgreSQL</p>
-                        <button class="animate-pulse text-center bg-[#9693e6] hover:bg-[#7270a7] text-white rounded-3xl my-7 mb-16 mx-20 px-14 py-2"><a href="./doc/Corso_SQL_e_PostgreSQL.pdf" download>SCARICA</a></button>
-                    </div>               
+            <div class="bg-white rounded-3xl mx-auto mb-10">
+                <div class="m-auto flex flex-col justify-center px-1">
+                    <img class="m-auto object-contain w-64 px-3 pt-5" src="./images/2.png" alt="SQL e postgreSQL" />
+                    <h3 class="text-center text-2xl pb-2 font-bold text-[#9693e6]">Node.js e Express.js</h3>
+                    <p class="text-center text-lg pb-2 mb-3 text-[#2d2d47]">Appunti su Node.js e Express.js</p>
+                    <button
+                        class="animate-pulse text-center bg-[#9693e6] hover:bg-[#7270a7] text-white rounded-3xl my-7 mb-16 mx-20 px-14 py-2"><a
+                            href="./doc/Corso_Node_ed_Express.pdf" download>SCARICA</a></button>
                 </div>
-
-                <div class="bg-white rounded-3xl mx-auto mb-10">
-                    <div class="m-auto flex flex-col justify-center px-1">
-                        <img class="m-auto object-contain w-64 px-3 pt-5" src="./images/2.png" alt="SQL e postgreSQL"/>
-                        <h3 class="text-center text-2xl pb-2 font-bold text-[#9693e6]">Node.js e Express.js</h3>
-                        <p class="text-center text-lg pb-2 mb-3 text-[#2d2d47]">Appunti su Node.js e Express.js</p>
-                        <button class="animate-pulse text-center bg-[#9693e6] hover:bg-[#7270a7] text-white rounded-3xl my-7 mb-16 mx-20 px-14 py-2"><a href="./doc/Corso_Node_ed_Express.pdf" download>SCARICA</a></button>
-                    </div>               
-                </div>
-
-                <div class="bg-white rounded-3xl mx-auto mb-10">
-                    <div class="m-auto flex flex-col justify-center px-1">
-                        <img class="m-auto object-contain w-64 px-3 pt-5" src="./images/3.png" alt="SQL e postgreSQL"/>
-                        <h3 class="text-center text-2xl pb-2 font-bold text-[#9693e6]">Sequelize</h3>
-                        <p class="text-center text-lg pb-2 mb-3 text-[#2d2d47]">Appunti sull'ORM Sequelize</p>
-                        <button class="animate-pulse text-center bg-[#9693e6] hover:bg-[#7270a7] text-white rounded-3xl my-7 mb-16 mx-20 px-14 py-2"><a href="./doc/Corso_Sequelize.pdf" download>SCARICA</a></button>
-                    </div>               
-                </div>
-
-                <div class="bg-white rounded-3xl mx-auto mb-10">
-                    <div class="m-auto flex flex-col justify-center px-1">
-                        <img class="m-auto object-contain w-64 px-3 pt-5" src="./images/4.png" alt="SQL e postgreSQL"/>
-                        <h3 class="text-center text-2xl pb-2 font-bold text-[#9693e6]">MongoDB</h3>
-                        <p class="text-center text-lg pb-2 mb-3 text-[#2d2d47]">Appunti sul DBMS MongoDB</p>
-                        <button class="animate-pulse text-center bg-[#9693e6] hover:bg-[#7270a7] text-white rounded-3xl my-7 mb-16 mx-20 px-14 py-2"><a href="./doc/Corso_MongoDB.pdf" download>SCARICA</a></button>
-                    </div>               
-                </div>
-
-                <div class="bg-white rounded-3xl mx-auto mb-10">
-                    <div class="m-auto flex flex-col justify-center px-1">
-                        <img class="m-auto object-contain w-64 px-3 pt-5" src="./images/5.png" alt="SQL e postgreSQL"/>
-                        <h3 class="text-center text-2xl pb-2 font-bold text-[#9693e6]">Tailwind CSS</h3>
-                        <p class="text-center text-lg pb-2 mb-3 text-[#2d2d47]">Appunti sul framework CSS Tailwind</p>
-                        <button class="animate-pulse text-center bg-[#9693e6] hover:bg-[#7270a7] text-white rounded-3xl my-7 mb-16 mx-20 px-14 py-2"><a href="./doc/Corso_Tailwind.pdf" download>SCARICA</a></button>
-                    </div>               
-                </div>
-
-                <div class="bg-white rounded-3xl mx-auto mb-10">
-                    <div class="m-auto flex flex-col justify-center px-1">
-                        <img class="m-auto object-contain w-64 px-3 pt-5" src="./images/6.png" alt="TypeScript"/>
-                        <h3 class="text-center text-2xl pb-2 font-bold text-[#9693e6]">TypeScript</h3>
-                        <p class="text-center text-lg pb-2 mb-3 text-[#2d2d47]">Appunti sul superset di JS, TypeScript </p>
-                        <button class="animate-pulse text-center bg-[#9693e6] hover:bg-[#7270a7] text-white rounded-3xl my-7 mb-16 mx-20 px-14 py-2"><a href="./doc/Corso_TypeScript.pdf" download>SCARICA</a></button>
-                    </div>               
-                </div>
-
-                <div class="bg-white rounded-3xl mx-auto mb-10">
-                    <div class="m-auto flex flex-col justify-center px-1">
-                        <img class="m-auto object-contain w-64 px-3 pt-5" src="./images/7.png" alt="SQL e postgreSQL"/>
-                        <h3 class="text-center text-2xl pb-2 font-bold text-[#9693e6]">Angular</h3>
-                        <p class="text-center text-lg pb-2 mb-3 text-[#2d2d47]">Appunti sul framework Angular</p>
-                        <button class="animate-pulse text-center bg-[#9693e6] hover:bg-[#7270a7] text-white rounded-3xl my-7 mb-16 mx-20 px-14 py-2"><a href="./doc/Corso_Angular.pdf" download>SCARICA</a></button>
-                    </div>               
-                </div>
-
             </div>
-        </main>
 
-    </body>
+            <div class="bg-white rounded-3xl mx-auto mb-10">
+                <div class="m-auto flex flex-col justify-center px-1">
+                    <img class="m-auto object-contain w-64 px-3 pt-5" src="./images/3.png" alt="SQL e postgreSQL" />
+                    <h3 class="text-center text-2xl pb-2 font-bold text-[#9693e6]">Sequelize</h3>
+                    <p class="text-center text-lg pb-2 mb-3 text-[#2d2d47]">Appunti sull'ORM Sequelize</p>
+                    <button
+                        class="animate-pulse text-center bg-[#9693e6] hover:bg-[#7270a7] text-white rounded-3xl my-7 mb-16 mx-20 px-14 py-2"><a
+                            href="./doc/Corso_Sequelize.pdf" download>SCARICA</a></button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl mx-auto mb-10">
+                <div class="m-auto flex flex-col justify-center px-1">
+                    <img class="m-auto object-contain w-64 px-3 pt-5" src="./images/4.png" alt="SQL e postgreSQL" />
+                    <h3 class="text-center text-2xl pb-2 font-bold text-[#9693e6]">MongoDB</h3>
+                    <p class="text-center text-lg pb-2 mb-3 text-[#2d2d47]">Appunti sul DBMS MongoDB</p>
+                    <button
+                        class="animate-pulse text-center bg-[#9693e6] hover:bg-[#7270a7] text-white rounded-3xl my-7 mb-16 mx-20 px-14 py-2"><a
+                            href="./doc/Corso_MongoDB.pdf" download>SCARICA</a></button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl mx-auto mb-10">
+                <div class="m-auto flex flex-col justify-center px-1">
+                    <img class="m-auto object-contain w-64 px-3 pt-5" src="./images/5.png" alt="SQL e postgreSQL" />
+                    <h3 class="text-center text-2xl pb-2 font-bold text-[#9693e6]">Tailwind CSS</h3>
+                    <p class="text-center text-lg pb-2 mb-3 text-[#2d2d47]">Appunti sul framework CSS Tailwind</p>
+                    <button
+                        class="animate-pulse text-center bg-[#9693e6] hover:bg-[#7270a7] text-white rounded-3xl my-7 mb-16 mx-20 px-14 py-2"><a
+                            href="./doc/Corso_Tailwind.pdf" download>SCARICA</a></button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl mx-auto mb-10">
+                <div class="m-auto flex flex-col justify-center px-1">
+                    <img class="m-auto object-contain w-64 px-3 pt-5" src="./images/6.png" alt="TypeScript" />
+                    <h3 class="text-center text-2xl pb-2 font-bold text-[#9693e6]">TypeScript</h3>
+                    <p class="text-center text-lg pb-2 mb-3 text-[#2d2d47]">Appunti sul superset di JS, TypeScript </p>
+                    <button
+                        class="animate-pulse text-center bg-[#9693e6] hover:bg-[#7270a7] text-white rounded-3xl my-7 mb-16 mx-20 px-14 py-2"><a
+                            href="./doc/Corso_TypeScript.pdf" download>SCARICA</a></button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl mx-auto mb-10">
+                <div class="m-auto flex flex-col justify-center px-1">
+                    <img class="m-auto object-contain w-64 px-3 pt-5" src="./images/7.png" alt="SQL e postgreSQL" />
+                    <h3 class="text-center text-2xl pb-2 font-bold text-[#9693e6]">Angular</h3>
+                    <p class="text-center text-lg pb-2 mb-3 text-[#2d2d47]">Appunti sul framework Angular</p>
+                    <button
+                        class="animate-pulse text-center bg-[#9693e6] hover:bg-[#7270a7] text-white rounded-3xl my-7 mb-16 mx-20 px-14 py-2"><a
+                            href="./doc/Corso_Angular.pdf" download>SCARICA</a></button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl mx-auto mb-10">
+                <div class="m-auto flex flex-col justify-center px-1">
+                    <img class="m-auto object-contain w-64 px-3 pt-5" src="./images/8.png" alt="Prisma ORM" />
+                    <h3 class="text-center text-2xl pb-2 font-bold text-[#9693e6]">Prisma ORM</h3>
+                    <p class="text-center text-lg pb-2 mb-3 text-[#2d2d47]">Appunti sull' ORM Prisma</p>
+                    <button
+                        class="animate-pulse text-center bg-[#9693e6] hover:bg-[#7270a7] text-white rounded-3xl my-7 mb-16 mx-20 px-14 py-2"><a
+                            href="./doc/Corso_Prisma.pdf" download>SCARICA</a></button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl mx-auto mb-10">
+                <div class="m-auto flex flex-col justify-center px-1">
+                    <img class="m-auto object-contain w-64 px-3 pt-5" src="./images/9.png" alt="GraphQL" />
+                    <h3 class="text-center text-2xl pb-2 font-bold text-[#9693e6]">GraphQL</h3>
+                    <p class="text-center text-lg pb-2 mb-3 text-[#2d2d47]">Appunti sul query language GraphQL</p>
+                    <button
+                        class="animate-pulse text-center bg-[#9693e6] hover:bg-[#7270a7] text-white rounded-3xl my-7 mb-16 mx-20 px-14 py-2"><a
+                            href="./doc/Corso_GraphQL.pdf" download>SCARICA</a></button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl mx-auto mb-10">
+                <div class="m-auto flex flex-col justify-center px-1">
+                    <img class="m-auto object-contain w-64 px-3 pt-5" src="./images/10.png" alt="Figma" />
+                    <h3 class="text-center text-2xl pb-2 font-bold text-[#9693e6]">Figma</h3>
+                    <p class="text-center text-lg pb-2 mb-3 text-[#2d2d47]">Appunti sul prototitapore Figma</p>
+                    <button
+                        class="animate-pulse text-center bg-[#9693e6] hover:bg-[#7270a7] text-white rounded-3xl my-7 mb-16 mx-20 px-14 py-2"><a
+                            href="./doc/Corso_Figma.pdf" download>SCARICA</a></button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl mx-auto mb-10">
+                <div class="m-auto flex flex-col justify-center px-1">
+                    <img class="m-auto object-contain w-64 px-3 pt-5" src="./images/10.png" alt="Angular Material UI" />
+                    <h3 class="text-center text-2xl pb-2 font-bold text-[#9693e6]">Angular Material UI</h3>
+                    <p class="text-center text-lg pb-2 mb-3 text-[#2d2d47]">Appunti su Angular Material, una libreria di
+                        componenti dell'UI che implementa Material Design in Angular</p>
+                    <button
+                        class="animate-pulse text-center bg-[#9693e6] hover:bg-[#7270a7] text-white rounded-3xl my-7 mb-16 mx-20 px-14 py-2"><a
+                            href="./doc/Corso_Angular_Material_UI.pdf" download>SCARICA</a></button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl mx-auto mb-10">
+                <div class="m-auto flex flex-col justify-center px-1">
+                    <img class="m-auto object-contain w-64 px-3 pt-5" src="./images/10.png" alt="Angular Material UI" />
+                    <h3 class="text-center text-2xl pb-2 font-bold text-[#9693e6]">Python</h3>
+                    <p class="text-center text-lg pb-2 mb-3 text-[#2d2d47]">Appunti sul linguaggio Python</p>
+                    <button
+                        class="animate-pulse text-center bg-[#9693e6] hover:bg-[#7270a7] text-white rounded-3xl my-7 mb-16 mx-20 px-14 py-2"><a
+                            href="./doc/Corso_Python.pdf" download>SCARICA</a></button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl mx-auto mb-10">
+                <div class="m-auto flex flex-col justify-center px-1">
+                    <img class="m-auto object-contain w-64 px-3 pt-5" src="./images/10.png" alt="Git" />
+                    <h3 class="text-center text-2xl pb-2 font-bold text-[#9693e6]">Git</h3>
+                    <p class="text-center text-lg pb-2 mb-3 text-[#2d2d47]">Appunti sul sistema di versionamento Git</p>
+                    <button
+                        class="animate-pulse text-center bg-[#9693e6] hover:bg-[#7270a7] text-white rounded-3xl my-7 mb-16 mx-20 px-14 py-2"><a
+                            href="./doc/Git_Sheet.pdf" download>SCARICA</a></button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
 </html>
