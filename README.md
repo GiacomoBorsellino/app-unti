@@ -71,7 +71,7 @@ Giacomo Borsellino - giacomoborsellino at gmail dot it
 
 Profilo Linkedin, per collaborazioni o proposte di lavoro: [Linkedin](https://www.linkedin.com/in/giacomo-borsellino-4039071b7/)
 
-Link all'app: [Ororo](https://app-unti.netlify.app/)
+Link all'app: [App-unti](https://app-unti.netlify.app/)
 
 ## Crediti
 
