@@ -2,16 +2,13 @@
 <br />
 <p align="center">
   <a href="https://github.com/GiacomoBorsellino/app-unti">
-    <img src="/build/images/ororo-logo.png" alt="Logo" width="200">
+    <img src="https://raw.githubusercontent.com/GiacomoBorsellino/app-unti/d0be4a377f2f95a3155cc27d2cae712a31e9ae04/public/images/0.svg" alt="Logo" width="200">
   </a>
 
   <h3 align="center">App-unti</h3>
 
   <p align="center">
     Raccoglitore di appunti e cheetsheet inerenti vari argomenti
-  </p>
-    <p align="center">
-    <img src="https://raw.githubusercontent.com/GiacomoBorsellino/app-unti/d0be4a377f2f95a3155cc27d2cae712a31e9ae04/public/images/0.svg" alt="screenshot" width="80%">
   </p>
 </p>
 
