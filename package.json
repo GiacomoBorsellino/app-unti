@@ -12,7 +12,7 @@
   "author": "Giacomo Borsellino",
   "license": "ISC",
   "dependencies": {
-    "tailwindcss": "^3.0.18"
+    "tailwindcss": "^4.1.13"
   }
 }
 
