@@ -4,15 +4,14 @@
   "description": "appunti corsi",
   "main": "index.js",
   "scripts": {
-    "build-css": " npx tailwindcss -i ./src/style.css -o ./public/style.css --watch"
+    "build-css": "npx tailwindcss -i ./src/style.css -o ./public/style.css"
   },
   "keywords": [
     "appunti"
   ],
   "author": "Giacomo Borsellino",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "tailwindcss": "^4.1.13"
   }
 }
-
